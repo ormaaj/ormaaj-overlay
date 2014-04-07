@@ -1,0 +1,12 @@
+diff -rupN pfstools-1.8.1/src/filter/pfspanoramic.cpp pfstools-1.8.1-mod/src/filter/pfspanoramic.cpp
+--- pfstools-1.8.1/src/filter/pfspanoramic.cpp	2008-07-29 11:14:30.000000000 -0500
++++ pfstools-1.8.1-mod/src/filter/pfspanoramic.cpp	2009-12-05 03:23:15.281116491 -0600
+@@ -191,7 +191,7 @@ class ProjectionFactory
+       singleton.projections[ string( name ) ] = ptr;
+     }
+ 
+-    static Projection *getProjection(const char *name)
++    static Projection *getProjection(char *name)
+     {
+       char *opts;
+       

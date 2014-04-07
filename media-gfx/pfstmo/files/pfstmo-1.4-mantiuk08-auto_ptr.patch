@@ -1,0 +1,11 @@
+--- pfstmo-1.4.orig/src/mantiuk08/display_adaptive_tmo.h	2009-02-23 19:46:36.000000000 +0100
++++ pfstmo-1.4/src/mantiuk08/display_adaptive_tmo.h	2009-11-13 19:47:34.292827556 +0100
+@@ -34,6 +34,8 @@
+ 
+ #include "pfstmo.h"
+ 
++#include <memory>
++
+ class datmoToneCurve
+ {
+   bool own_y_i;
