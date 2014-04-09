@@ -2,11 +2,11 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+EAPI=2
+
 DESCRIPTION="Original Vista Fonts"
 HOMEPAGE="http://www.arcong.ath.cx/"
 SRC_URI="http://ormaaj.org/pages/gentoo/${P}.tar.bz2"
-
-EAPI=2
 
 LICENSE="MSttfEULA"
 SLOT="0"
