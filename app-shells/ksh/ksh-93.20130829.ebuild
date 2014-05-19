@@ -1,1 +1,1 @@
-/home/smorg/doc/ormaaj-overlay/app-shells/ksh/ksh-9999.ebuild
+ksh-9999.ebuild

@@ -1,1 +1,1 @@
-Personal Gentoo overlay for miscellaneous packages.
+Gentoo overlay for miscellaneous packages.
